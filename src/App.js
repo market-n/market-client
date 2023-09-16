@@ -1,9 +1,10 @@
 import "./App.css";
+import { Router } from "./layouts";
 
 function App() {
   return (
     <div className="App">
-      <h1>APP JS</h1>
+      <Router />
     </div>
   );
 }
