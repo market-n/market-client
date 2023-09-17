@@ -29,7 +29,28 @@ export const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="Header__floor2"></div>
+      <div className="Header__floor2">
+        <div className="Header__nav">
+          <Link to="/" className="Header__link Header__down">
+            Barchasi
+          </Link>
+          <Link to="/" className="Header__link Header__down">
+            Texnikalar
+          </Link>
+          <Link to="/" className="Header__link Header__down">
+            Kiyim-kechaklar
+          </Link>
+          <Link to="/" className="Header__link Header__down">
+            Kitoblar
+          </Link>
+          <Link to="/" className="Header__link Header__down">
+            Stol-stullar
+          </Link>
+          <Link to="/" className="Header__link Header__down">
+            O'yinchoqlar
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
