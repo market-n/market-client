@@ -9,8 +9,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 35px;
-  background: #3c2f2f;
+  padding: var(--container-pad);
+  background: #3b7dd8;
 }
 .Header__floor2 {
   width: 100%;
@@ -18,12 +18,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 35px;
-  background: #3c2f2ffb;
+  padding: var(--container-pad);
+  background: #3b7cd8ed;
 }
 .Header__logo {
   text-transform: uppercase;
-  letter-spacing: -1.5px;
+  letter-spacing: -0.1px;
   color: #fff;
 }
 .Header__nav {
@@ -46,17 +46,17 @@
 }
 .Header__link:hover {
   background-color: #fff;
-  color: #3c2f2f;
+  color: #3b7dd8;
   box-shadow: rgba(217, 217, 246, 0.25) 0px 2px 5px -1px,
     rgba(205, 188, 188, 0.3) 0px 1px 3px -1px;
 }
 .Header__down {
-  border: 0.6px solid #ffffffa3;
-  border-radius: 12px;
+  border-radius: 4px;
   margin-right: 20px;
   padding: 8px 10px;
   font-size: 12px;
   text-transform: uppercase;
+  box-shadow: rgba(254, 254, 254, 0.075) 0px 1px 4px;
 }
 .Header__link .icon {
   color: #fff;
@@ -65,7 +65,7 @@
   transition: 0.4s ease-in-out;
 }
 .Header__link:hover .icon {
-  color: #3c2f2f;
+  color: #3b7dd8;
 }
 
 .Header__active {
