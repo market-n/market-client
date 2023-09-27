@@ -6,6 +6,7 @@
   height: 80px;
   background-color: #f6f5ff;
   padding: var(--container-pad);
+  position: fixed;
 }
 .Header__logo {
   font-size: 24px;
