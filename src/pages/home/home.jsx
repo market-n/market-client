@@ -1,12 +1,10 @@
-import { Fragment } from "react";
 import "./home.css";
-import { Header, HomeMain, Products } from "../../components";
+import { Header, HomeComponent } from "../../components";
 export const Home = () => {
   return (
-    <Fragment>
+    <div className="Home">
       <Header />
-      <HomeMain />
-      <Products />
-    </Fragment>
+      <HomeComponent />
+    </div>
   );
 };

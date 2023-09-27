@@ -1,0 +1,4 @@
+.HomeComponent {
+  padding: var(--container-pad);
+  padding-top: 80px;
+}
