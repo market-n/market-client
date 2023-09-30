@@ -1,0 +1,6 @@
+.HomeProducts {
+  width: calc(100% - 300px);
+  border: 1px solid red;
+  min-height: calc(100vh - 80px);
+  padding: 20px;
+}

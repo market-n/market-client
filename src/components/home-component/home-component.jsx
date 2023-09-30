@@ -1,4 +1,4 @@
-import { Sidebar } from "../../layouts";
+import { HomeProducts, Sidebar } from "../../layouts";
 import { Category } from "../category/category";
 import "./home-component.css";
 export const HomeComponent = () => {
@@ -7,6 +7,7 @@ export const HomeComponent = () => {
       <Sidebar>
         <Category />
       </Sidebar>
+      <HomeProducts />
     </div>
   );
 };
