@@ -1,4 +1,6 @@
 .HomeComponent {
   padding: var(--container-pad);
   padding-top: 80px;
+  display: flex;
+  justify-content: flex-start;
 }
